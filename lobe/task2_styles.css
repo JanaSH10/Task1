@@ -1,0 +1,121 @@
+
+header {
+    display: flex;
+}
+.logo{
+    width: 100px;
+    }
+
+.nav ul {
+    position: absolute;
+    left: 250px;
+   list-style: none;
+   display: flex;
+   gap: 50px;
+   
+}
+
+.nav li a {
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    }
+
+.nav li:hover {
+    border-bottom: 2px #04ddb2 solid ;
+    border-radius: 1px;
+}    
+
+header button{
+    width: 100px;
+    height: 50px;
+    background-color:#04ddb2 ;
+    border:1px #04ddb2 solid ;
+    border-radius: 50px;
+    position: absolute;
+    right: 50px;
+}  
+
+button:hover{
+    background-color:#fff;
+    cursor: pointer;
+} 
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+main h1 span {
+    color: #04ddb2;
+}
+
+main p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#button{
+    width: 100px;
+    height: 50px;
+    background-color:#04ddb2 ;
+    border:1px #04ddb2 solid ;
+    border-radius: 50px;
+    display: block; 
+    margin: 20px auto;   
+    text-align: center;
+}  
+
+
+#button:hover{
+    background-color:#fff;
+    cursor: pointer;
+} 
+
+
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+.icons  img{
+    width: 100px;
+    
+}
+footer table td{
+    font-size: 12px;
+    padding: 5px 40px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+ 
+.heading{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#blog{
+    text-align: right;
+    position: relative;
+    right: 20px;
+}
+
+footer hr{
+    color: #76767648;
+}
+iframe{
+
+    display: block;
+   margin: 50px auto;
+   width: 500px;
+   height: 300px;
+   outline: 30px #76767629 solid ;
+   border-radius: 5px;
+}
